@@ -209,8 +209,9 @@ export default function Index() {
 
           <div className="flex items-center justify-between py-3">
             <button onClick={() => navTo("Главная")} className="flex items-center gap-2">
-              <div className="flex items-center justify-center">
+              <div className="flex flex-col leading-none">
                 <span className="font-oswald text-2xl font-bold tracking-widest text-foreground">С<span className="text-primary">К</span>М</span>
+                <span className="text-[9px] text-muted-foreground tracking-widest uppercase mt-0.5">Сантехкрепмонтаж</span>
               </div>
             </button>
 
