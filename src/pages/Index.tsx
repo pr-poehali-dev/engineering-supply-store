@@ -191,7 +191,7 @@ export default function Index() {
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1.5">
                 <Icon name="Phone" size={14} className="text-primary" />
-                +7 (495) 123-45-67
+                +7-962-200-46-45
               </span>
               <span className="hidden md:flex items-center gap-1.5">
                 <Icon name="Clock" size={14} className="text-primary" />
@@ -898,7 +898,7 @@ export default function Index() {
                 <div className="space-y-6">
                   {[
                     { icon: "MapPin", title: "Адрес", lines: ["г. Москва, ул. Промышленная, 12", "Склад: открыт Пн–Пт 8:00–19:00, Сб 9:00–15:00"] },
-                    { icon: "Phone", title: "Телефоны", lines: ["+7 (495) 123-45-67 — отдел продаж", "+7 (495) 123-45-68 — технический отдел"] },
+                    { icon: "Phone", title: "Телефоны", lines: ["+7-962-200-46-45"] },
                     { icon: "Mail", title: "Email", lines: ["sales@tehnosnab.ru — продажи", "info@tehnosnab.ru — общие вопросы"] },
                     { icon: "Clock", title: "Режим работы", lines: ["Пн–Пт: 9:00 – 18:00", "Сб–Вс: выходной (срочные вопросы — по WhatsApp)"] },
                   ].map((c, i) => (
