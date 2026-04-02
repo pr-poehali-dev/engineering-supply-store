@@ -209,12 +209,8 @@ export default function Index() {
 
           <div className="flex items-center justify-between py-3">
             <button onClick={() => navTo("Главная")} className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                <Icon name="Zap" size={16} className="text-white" />
-              </div>
-              <div>
-                <span className="font-oswald text-xl font-bold tracking-wide text-foreground">ТЕХНО<span className="text-primary">СНАБ</span></span>
-                <div className="text-[10px] text-muted-foreground tracking-widest uppercase -mt-0.5">Инженерные системы</div>
+              <div className="flex items-center justify-center">
+                <span className="font-oswald text-2xl font-bold tracking-widest text-foreground">С<span className="text-primary">К</span>М</span>
               </div>
             </button>
 
@@ -984,10 +980,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-7 h-7 bg-primary rounded flex items-center justify-center">
-                  <Icon name="Zap" size={14} className="text-white" />
-                </div>
-                <span className="font-oswald text-lg font-bold text-foreground">ТЕХНО<span className="text-primary">СНАБ</span></span>
+                <span className="font-oswald text-xl font-bold tracking-widest text-foreground">С<span className="text-primary">К</span>М</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 Поставщик инженерных систем и материалов с 2010 года. Работаем для профессионалов.
